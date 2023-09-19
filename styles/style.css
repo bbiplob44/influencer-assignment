@@ -1,0 +1,39 @@
+/* Common Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Prebook Styles */
+.heading {
+    font-size: 52px;
+    /* width: 582px;
+    height: 133px; */
+}
+
+.lorem {
+    font-size: 16px;
+
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 600px;
+    display: inline-flex;
+    padding: 10px 24px;
+    gap: 8px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+}
+
+.top-thumbnail {
+    width: 440px;
+    height: 414px;
+}
+
+.top-container {
+    display: flex;
+    margin: 120px;
+}
