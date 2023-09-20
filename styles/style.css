@@ -6,6 +6,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px -50px 120px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+
+}
+
 /* Prebook Styles */
 .heading {
     font-size: 52px;
@@ -119,12 +140,20 @@ footer {
     color: #FFF;
     display: grid;
     justify-content: center;
+    justify-items: center;
+}
 
+.footer-heading {}
+
+.copyright-thumbnail {
+    margin-top: -6px;
+    margin-bottom: 20px;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
+    margin-right: 35px;
 
 }
 
